@@ -54,7 +54,6 @@ class ReactCardFlip extends React.Component {
         transform: 'rotateY(0deg)',
         transformStyle: 'preserve-3d',
         width: '100%',
-        zIndex: '2',
         ...this.props.cardStyles.front
       },
       back: {
